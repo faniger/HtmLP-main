@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
 
-@media (min-width:320px) and (max-width:480px) {
+@media (max-width:768px) {
     .miestilo {
         text-align: left;
         font-size: 25px; }
     ul {
+        display: flex;
         flex-wrap: wrap;
+    } 
+    .grid {
+        size-adjust: 15px;
     }
 }
-@media (min-width:481px) and (max-width:1023px) {
+    
+@media (min-width:769px) and (max-width:998px) {
     .miestilo {
         text-align: left;
         font-size: 20px;
@@ -16,7 +21,7 @@
 
     }
 }
-@media (min-width:1024px) and (max-width:1200px) {
+@media (min-width:999px) and (max-width:1200px) {
     .miestilo {
         text-align: left;
         font-size: 15px;
@@ -50,22 +55,55 @@
     background-color: #184E77;
     color: #fff;
 }
-nav {
-    background-color: #184e77;
-}
-
-ul {
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around; 
     padding: 0;
+    background-color: #184e77;
 }
 
+
+main {
+    background-image: url(../IMAGES/punto-verde-lp-reciclaje-1jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    size: 100%;
+}
 li {
   margin: 5;
   padding: 10px;
+  align-items: center;
  
 } 
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 343px;
+    width: 456px;
+    padding: 15px;
+    margin: 10px;
+    border: 10px solid #34A0A4;
+}
+
+    
+.grid {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 3fr 3fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+
+
+}
+
+ div {
+    border-color: solid #184e77;
+   
+ }
+
 
 a:hover {
   color: #d9ed92;
@@ -117,6 +155,32 @@ h1 {
     font-style: normal;
     font-size: 40px;
 }
+h2 {
+    font-family: "Freeman", sans-serif;
+    font-size: 30px;
+    display: flexbox;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    
+}
+h3 { 
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #99d98c;
+}
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    background-color: #99d98c;
+}
 a:hover {
     color: #d9ed92;
     font-weight: bold;
@@ -133,7 +197,7 @@ a:hover {
     color: #fff;
 }
 
-nav {
+/* nav {
     background-color: #184E77;
 }
 
@@ -141,7 +205,7 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around; 
-}
+} */
 
 li {
     margin: 5;
@@ -149,24 +213,7 @@ li {
 }
 
 
-h2 {
-    font-family: "Freeman", sans-serif;
-    font-size: 30px;
-    display: flexbox;
-    padding: 20px;
-    margin: 20px;
-    justify-content: center;
-    text-align: center;
-    
-}
-h3 { 
-    font-family: "Freeman", sans-serif;
-    font-weight: 500px;
-    font-style: normal;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 50px;
-}
+
 .redes {
     margin: 0;
     top: 25px;
