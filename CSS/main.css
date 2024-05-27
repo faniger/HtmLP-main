@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
+
+@media (max-width:768px) {
+    .miestilo {
+        text-align: left;
+        font-size: 25px; }
+    ul {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:769px) and (max-width:998px) {
+    .miestilo {
+        text-align: left;
+        font-size: 20px;
+        
+
+    }
+}
+@media (min-width:999px) and (max-width:1200px) {
+    .miestilo {
+        text-align: left;
+        font-size: 15px;
+            
+    
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: flex-start;
+    float: left;
+    width: 25%;
+    border-color: black;
+    
+}
+aside {
+    float: right;
+    width: 30%
+}
+.container {
+    color: solid black;
+    background-color: #fff;
+}
+.container{
+    border-color: black;
+}
+.container {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+.container {
+    border-top: solid 5px green;
+    border-right: solid 5px green;
+    border-bottom: solid 7px green;
+    border-left: solid 5px green
+}
+
+
+#section-header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+}
+
+
+#logo {
+  width: 150px;
+  shape-margin: 2%;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #d9ed92;
+  font-family: "Freeman", sans-serif;
+  background-image: url(../IMAGES/economia-circular.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+
+}
+
+h1 {
+  font-weight: 500px;
+  font-size: 40px;
+  font-family: "Freeman", sans-serif;
+  text-decoration: none;
+}
+
+.sub-titulo {
+    font-size: 2.6rem;
+    text-align: left;
+    margin: 5%;
+    text-decoration: underline;
+}
+
+.erres {
+    text-align: center;
+    text-shadow: #99d98c;
+    font-size: 1.5rem;
+    margin: 0% auto;
+    padding: 3rem;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+
+ol {
+    text-align: center;
+    width: 70%;
+    aspect-ratio: 3/2;
+    gap: 2rem;
+}
+
+.otro-sub-titulo{
+    font-size: 2rem;
+}
+
+.grotesk {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #184E77;
+    color: #fff;
+}
+nav {
+    background-color: #184e77;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    padding: 0;
+}
+
+li {
+  margin: 5;
+  padding: 10px;
+ 
+} 
+
+a:hover {
+  color: #d9ed92;
+  font-weight: bold;
+}
+a:active {
+    color: #34A0A4;
+}
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+} 
+
+
+.wrap-texto{
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    font-family: "Freeman" sans-serif;
+    font-weight: bold;
+}
+
+
+.wrap-parrafo{
+    font-family: "Freeman", sans-serif;
+    font-weight: 200;
+    width: 50vw;
+    font-size: large;
+}
+
+
+#bold{
+  font-weight: bold;
+  font-size: large;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.economia{
+    text-align: justify;
+
+}
+
+
+.container {
+    float: right;
+    width: 25%;
+    border-color: black;
+}
+aside {
+    float: left;
+    width: 30%
+}
+.container {
+    color: solid black;
+    background-color: #fff;
+}
+
+.container {
+    margin: 50px;
+    width: 300px;
+    height: 600px;
+    background-color: #B5E48C;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.child{
+    width: 90px;
+    height: 100px;
+
+}
+.container {
+    border-top: solid 5px #34A0A4;
+    border-right: solid 5px #34A0A4;
+    border-bottom: solid 5px #34A0A4;
+    border-left: solid 5px #34A0A4;
+    margin-top: 2px;
+    
+    
+}
+footer {
+    font-family: "Freeman", sans-serif; 
+    color:#99d98c;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #184e77;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.box {
+    width: 40px;
+    font-size: 2rem;
+    border: 4px solid;
+    padding: 20px;
+    margin-left: 30%;
+    /*overflow-wrap: break-word; / cazando mitos */
+
+} /* pequeño chiste que encontramos investigando jaja*/
+ 
+.uno {
+    font-family: "Freeman", sans-serif;
+    color: solid black;
+    background-color: #99d98c;
+ }
+
+/*
+https://coolors.co/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77
+paleta usada hasta ahora:
+52B69A
+184E77
+99D98C
+D9ED92
+#fff (este no esta en la paleta pero es el color de las letras en nav)
+también elegí un logo, puse ese porque me gustó pero no es definitivo obvio! pd: soy Regi
+
+*/

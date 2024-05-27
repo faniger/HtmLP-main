@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
+
+@media (min-width:320px) and (max-width:480px) {
+    .miestilo {
+        text-align: left;
+        font-size: 25px; }
+    ul {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:481px) and (max-width:1023px) {
+    .miestilo {
+        text-align: left;
+        font-size: 20px;
+        
+
+    }
+}
+@media (min-width:1024px) and (max-width:1200px) {
+    .miestilo {
+        text-align: left;
+        font-size: 15px;
+            
+    
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#section-header {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    shape-margin: 2%;
+    border-radius: 50%;
+}
+p {
+    font-family: "Freeman", sans-serif;
+    font-size: 20px;
+    display: flexbox;
+    padding: 20px;
+    margin: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+#bold{
+    font-weight: bold;
+    font-size: large;
+}
+
+body {
+    background-color: #D9ED92;
+}
+h1 {
+    font-family: "Freeman", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 40px;
+}
+a:hover {
+    color: #d9ed92;
+    font-weight: bold;
+  }
+  a:active {
+      color: #34A0A4;
+  }
+
+
+.grotesk {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #184E77;
+    color: #fff;
+}
+
+nav {
+    background-color: #184E77;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+}
+
+li {
+    margin: 5;
+    padding: 10px;
+}
+
+
+h2 {
+    font-family: "Freeman", sans-serif;
+    font-size: 20px;
+    display: flexbox;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+h3 { 
+    font-family: "Freeman", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.redes {
+    margin: 0;
+    top: 25px;
+    left: 25px;
+    padding-top: 15px;
+    display: flex;
+    
+}
+img {
+    width: 70px;
+    height:70px;
+    
+  }
+
+.dire{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    font-size: 15px;
+}
+
+footer{
+    font-family: "Freeman", sans-serif; 
+    color:#99d98c;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #184e77;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+.box {
+    width: 40px;
+    font-size: 2rem;
+    border: 4px solid #99d98c;
+    padding: 20px;
+    margin-left: 30%;
+}
+    /*overflow-wrap: break-word; / cazando mitos */
