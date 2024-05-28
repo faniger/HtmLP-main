@@ -125,35 +125,56 @@ h3 {
     display: flex;
     
 }
-img {
-    width: 70px;
-    height:70px;
-    
-  }
 
-.dire{
-    text-align: center;
-    font-family: "Freeman", sans-serif;
-    font-size: 15px;
-}
-
-footer{
+footer {
     font-family: "Freeman", sans-serif; 
-    color:#99d98c;
+    color:#fff;
     font-size: 17px;
     letter-spacing: 1px;
-    text-align: center;
-    background-color: #184e77;
+    text-align: right;
+    background-color: #34A0A4;
     margin-top: 15px;
     margin-bottom: 15px;
-
-
+    padding: 10px;
 }
-.box {
-    width: 40px;
-    font-size: 2rem;
-    border: 4px solid #99d98c;
-    padding: 20px;
-    margin-left: 30%;
+
+form{
+    font-family:"Freeman", sans-serif;
+   margin: 0 auto;
+  width: 600px;
+  padding: 10px;
+  border-radius: 1em;
+  
 }
-    /*overflow-wrap: break-word; / cazando mitos */
+input, textarea{
+    display: flex;
+    border-radius: 1px;
+    border-color: #ccc;
+    padding: 10px;
+    width: 600px;
+}
+button{
+    font-family: "Freeman", sans-serif; 
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    background-color: #184E77;
+    width: 600px;
+}
+ .logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px;border: 0px solid green;
+        width: 1000px;
+    }
+    
+.infor {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        margin: 0px;border: 0px solid green;
+        width: 1000px;
+        line-height:3px;
+    }

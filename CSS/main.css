@@ -240,14 +240,29 @@ aside {
 }
 footer {
     font-family: "Freeman", sans-serif; 
-    color:#99d98c;
+    color:#fff;
     font-size: 17px;
     letter-spacing: 1px;
-    text-align: center;
-    background-color: #184e77;
+    text-align: right;
+    background-color: #34A0A4;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding: 10px;
+}
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;border: 0px solid green;
+    width: 1000px;
+}
 
+.infor {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 0px;border: 0px solid green;
+    width: 1000px;
+    line-height:3px;
 }
 .box {
     width: 40px;
