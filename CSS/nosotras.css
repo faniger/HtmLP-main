@@ -67,19 +67,19 @@ aside {
 }
 
 
-#section-header {
+.section-header {
     display: flex;
     justify-content: center;
     padding: 5px;
 }
 
-#titulo{
+.titulo{
     display: flex;
     align-items: center;
 }
 
 
-#logo {
+.logo {
   width: 150px;
   shape-margin: 2%;
   border-radius: 50%;
