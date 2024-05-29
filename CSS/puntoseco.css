@@ -1,34 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
 
-@media (max-width:768px) {
-    .miestilo {
-        text-align: left;
-        font-size: 25px; }
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-    } 
-    .grid {
-        size-adjust: 15px;
-    }
-}
-    
-@media (min-width:769px) and (max-width:998px) {
-    .miestilo {
-        text-align: left;
-        font-size: 20px;
-        
 
-    }
-}
-@media (min-width:999px) and (max-width:1200px) {
-    .miestilo {
-        text-align: left;
-        font-size: 15px;
-            
-    
-    }
-}
 * {
     margin: 0;
     padding: 0;
@@ -255,7 +227,32 @@ footer{
 } /*overflow-wrap: break-word; / cazando mitos */
 
  /* pequeño chiste que encontramos investigando jaja*/
- /*
+ 
+ @media (max-width:768px) {
+    .miestilo {
+        text-align: left;
+        font-size: 25px; }
+    ul {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:769px) and (max-width:998px) {
+    .miestilo {
+        text-align: left;
+        font-size: 20px;
+        
+
+    }
+}
+@media (min-width:999px) and (max-width:1200px) {
+    .miestilo {
+        text-align: left;
+        font-size: 15px;
+            
+    
+    }
+}
+/*
 https://coolors.co/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77
 paleta usada hasta ahora:
 52B69A

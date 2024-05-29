@@ -1,48 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
 
-@media (max-width:768px) {
-    .miestilo {
-        text-align: left;
-        font-size: 25px; }
-    ul {
-        flex-wrap: wrap;
-    }
-}
-@media (min-width:769px) and (max-width:998px) {
-    .miestilo {
-        text-align: left;
-        font-size: 20px;
-        
-
-    }
-}
-@media (min-width:999px) and (max-width:1200px) {
-    .miestilo {
-        text-align: left;
-        font-size: 15px;
-            
-    
-    }
-}
 * {
     margin: 0;
     padding: 0;
 }
 
-.container {
-    justify-content: flex-start;
-    float: left;
-    width: 25%;
-    border-color: black;
-    
-}
+
 aside {
-    float: right;
-    width: 30%
-}
-.container {
-    color: solid black;
-    background-color: #fff;
     border-color: black;
     border-top: solid 5px green;
     border-right: solid 5px green;
@@ -52,14 +16,8 @@ aside {
     margin-right: 10px;
     margin-bottom: 12px;
     margin-left: 15px;
-    border-top: solid 5px #34A0A4;
-    border-right: solid 5px #34A0A4;
-    border-bottom: solid 5px #34A0A4;
-    border-left: solid 5px #34A0A4;
-    margin-top: 2px;
     float: right;
     width: 25%;
-    border-color: black;
     margin: 50px;
     width: 300px;
     height: 600px;
@@ -68,24 +26,23 @@ aside {
     place-items: center;
     text-align: center;
     color: solid black;
-    background-color: #fff;
 }
 
 
 
-#section-header {
+.section-header {
     display: flex;
     justify-content: center;
     padding: 5px;
 }
 
-#titulo{
+.titulo{
     display: flex;
     align-items: center;
 }
 
 
-#logo {
+.logo {
   width: 150px;
   shape-margin: 2%;
   border-radius: 50%;
@@ -212,10 +169,6 @@ h2 {
 
 }
 
-aside {
-    float: left;
-    width: 30%
-}
 
 
 
@@ -253,7 +206,30 @@ footer {
     color: solid black;
     background-color: #99d98c;
  }
+ @media (max-width:768px) {
+    .miestilo {
+        text-align: left;
+        font-size: 25px; }
+    ul {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:769px) and (max-width:998px) {
+    .miestilo {
+        text-align: left;
+        font-size: 20px;
+        
 
+    }
+}
+@media (min-width:999px) and (max-width:1200px) {
+    .miestilo {
+        text-align: left;
+        font-size: 15px;
+            
+    
+    }
+}
 /*
 https://coolors.co/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77
 paleta usada hasta ahora:
