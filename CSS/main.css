@@ -43,22 +43,34 @@ aside {
 .container {
     color: solid black;
     background-color: #fff;
-}
-.container{
     border-color: black;
-}
-.container {
+    border-top: solid 5px green;
+    border-right: solid 5px green;
+    border-bottom: solid 7px green;
+    border-left: solid 5px green;
     margin-top: 5px;
     margin-right: 10px;
     margin-bottom: 12px;
     margin-left: 15px;
+    border-top: solid 5px #34A0A4;
+    border-right: solid 5px #34A0A4;
+    border-bottom: solid 5px #34A0A4;
+    border-left: solid 5px #34A0A4;
+    margin-top: 2px;
+    float: right;
+    width: 25%;
+    border-color: black;
+    margin: 50px;
+    width: 300px;
+    height: 600px;
+    background-color: #B5E48C;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: solid black;
+    background-color: #fff;
 }
-.container {
-    border-top: solid 5px green;
-    border-right: solid 5px green;
-    border-bottom: solid 7px green;
-    border-left: solid 5px green
-}
+
 
 
 #section-header {
@@ -200,44 +212,21 @@ h2 {
 
 }
 
-
-.container {
-    float: right;
-    width: 25%;
-    border-color: black;
-}
 aside {
     float: left;
     width: 30%
 }
-.container {
-    color: solid black;
-    background-color: #fff;
-}
 
-.container {
-    margin: 50px;
-    width: 300px;
-    height: 600px;
-    background-color: #B5E48C;
-    display: grid;
-    place-items: center;
-    text-align: center;
-}
+
+
 .child{
     width: 90px;
     height: 100px;
 
 }
-.container {
-    border-top: solid 5px #34A0A4;
-    border-right: solid 5px #34A0A4;
-    border-bottom: solid 5px #34A0A4;
-    border-left: solid 5px #34A0A4;
-    margin-top: 2px;
+
     
     
-}
 footer {
     font-family: "Freeman", sans-serif; 
     color:#99d98c;
