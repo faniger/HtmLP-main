@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
+
+@media (max-width:768px) {
+    .miestilo {
+        text-align: left;
+        font-size: 25px; }
+    ul {
+        flex-wrap: wrap;
+    }
+    body{
+        font-size: 12px;
+    }
+    footer{
+        width: 500px;
+    };
+}
+@media (min-width:769px) and (max-width:998px) {
+    .miestilo {
+        text-align: left;
+        font-size: 20px;
+        
+
+    }
+}
+@media (min-width:999px) and (max-width:1200px) {
+    .miestilo {
+        text-align: left;
+        font-size: 15px;
+            
+    
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: flex-start;
+    float: left;
+    width: 25%;
+    border-color: black;
+    
+}
+aside {
+    float: right;
+    width: 30%
+}
+.container {
+    color: solid black;
+    background-color: #fff;
+}
+.container{
+    border-color: black;
+}
+.container {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+.container {
+    border-top: solid 5px green;
+    border-right: solid 5px green;
+    border-bottom: solid 7px green;
+    border-left: solid 5px green
+}
+
+
+#section-header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+}
+
+
+#logo {
+  width: 150px;
+  shape-margin: 2%;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #D9ED92;
+  font-family: "Freeman", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+
+}
+
+h1 {
+  font-weight: 500px;
+  font-size: 40px;
+  font-family: "Freeman", sans-serif;
+  text-decoration: none;
+}
+
+.sub-titulo {
+    font-size: 2.6rem;
+    text-align: left;
+    margin: 5%;
+    text-decoration: underline;
+}
+
+.parrafo {
+    font-family: "Freeman", sans-serif;
+    width: 800px;
+    padding: 20px;
+    font-size: larger;
+    line-height:2.0;
+    text-align: justify;
+
+}
+.parrafo img{
+    float: left;
+    margin-right: 15px;
+}
+ol {
+    text-align: center;
+    width: 70%;
+    aspect-ratio: 3/2;
+    gap: 2rem;
+}
+
+.otro-sub-titulo{
+    font-size: 2rem;
+}
+
+.grotesk {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #184E77;
+    color: #fff;
+}
+nav {
+    background-color: #184e77;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    padding: 0;
+}
+
+li {
+  margin: 5;
+  padding: 10px;
+ 
+} 
+
+a:hover {
+  color: #d9ed92;
+  font-weight: bold;
+}
+a:active {
+    color: #34A0A4;
+}
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+} 
+
+
+.wrap-texto{
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    font-family: "Freeman" sans-serif;
+    font-weight: bold;
+}
+
+
+.wrap-parrafo{
+    font-family: "Freeman", sans-serif;
+    font-weight: 200;
+    width: 50vw;
+    font-size: large;
+}
+
+
+#bold{
+  font-weight: bold;
+  font-size: large;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.economia{
+    text-align: justify;
+
+}
+
+
+.container {
+    float: right;
+    width: 25%;
+    border-color: black;
+}
+
+.container {
+    color: solid black;
+    background-color: #fff;
+}
+
+.container {
+    margin: 50px;
+    width: 300px;
+    height: 600px;
+    background-color: #B5E48C;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.child{
+    width: 90px;
+    height: 100px;
+
+}
+.container {
+    border-top: solid 5px #34A0A4;
+    border-right: solid 5px #34A0A4;
+    border-bottom: solid 5px #34A0A4;
+    border-left: solid 5px #34A0A4;
+    margin-top: 2px;  
+}
+aside{
+    display: flex;
+    float: right;
+    margin-top: 150px;
+    margin-right: 30px;
+    padding: 25px;
+}
+aside img{
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+aside p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1pt;
+}
+aside h2{
+    font-family: "Freeman", sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+hr {
+    height: 3px;
+    background-color: #184E77;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+footer {
+    font-family: "Freeman", sans-serif; 
+    color:#fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: right;
+    background-color: #34A0A4;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;border: 0px solid green;
+    width: 1000px;
+}
+
+.infor {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 0px;border: 0px solid green;
+    width: 1000px;
+    line-height:3px;
+}
+ 
+.uno {
+    font-family: "Freeman", sans-serif;
+    color: solid black;
+    background-color: #99d98c;
+ }
