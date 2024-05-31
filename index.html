@@ -1,34 +1,21 @@
-<!-- 
-//////////PROYECTO INTEGRADOR/////////
-----------Instancia: pre-entrega------
-..........Grupo: HTMLP................
-..........Integrantes:................
-..........Brenda Polo.................->linkeo de páginas externas e internas, footer y css de la página de contacto.
-..........Regina Ferraro..............-> fuentes, logo, estilos en css, boxmodeling, flexbox, mobile first, media queries, barra nav, presentación del grupo, etiqueta semántica aside.
-..........Alexa Gilbert...............->imágenes, diseño, etiquetas y selectores en css, codigo de html, 
-..........Luciana Franco..............->redacción de presentación, código html, diseño, elección de color, css.
-..........Gabriela Altamirano.........-> codigo html, estilos y selectores en css, flexbox, box-modeling, busqueda de información
-//////////////////////////////////////
->-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Economía circular en la ciudad de La Plata.</title>
+    <title class="title">Economía circular en la ciudad de La Plata.</title>
     <link rel="stylesheet" href="./CSS/main.css">
-    <link rel="icon" href="./IMAGES/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
     <section class="section-header">
-        <img class="logo" src="./IMAGES/logo htmlp.png" alt="logo" />
-        <h1 class="titulo">Economía circular en la ciudad de La Plata</h1>
-    </section> <!--Alexa, separé logo y texto en un section para poder alinearlos-->
+        <img id="logo" src="./IMAGES/logo htmlp.png" alt="logo" />
+        <h1>Economía circular en la ciudad de La Plata</h1>
+    </section> 
     <nav>
         <ul>
-            <li id="bold"><a class="grotesk" href="./index.html">Inicio</a></li>
+            <li class="bold"><a class="grotesk" href="./index.html">Inicio</a></li>
             <li><a class="grotesk" href="./contact.html">Contacto</a></li>
             <li><a class="grotesk" href="./puntosdereciclaje.html">Puntos de reciclaje</a></li>
         <li>
@@ -39,76 +26,87 @@
         <li><a class="grotesk" href="./reciclaencasa.html">Recicla en casa. (tutorial)</a></li>
         </ul>
     </nav>
+    <h4>Comentario</h4>
 </header>
 
 <main>
-    <section>  
-        <aside class="grid">
-    
-            <article class="economía">
-                <h2>Creadora de la Economía circular</h2>
-                <p>En 2005, Ellen MacArthur se convirtió en la navegante en solitario más rápida en dar la vuelta al mundo. Cinco años después, creó su Fundación en su nombre para acelerar una transición hacia una economía circular. </p>
-                <h2>Sistema limitado</h2>
-                <p>En sus días sola en el mar reflexionó, su barco era su mundo y su supervivencia dependía de suministros limitados que había traído consigo. Se dio cuenta de que nuestra economía global no es diferente: depende completamente de los recursos finitos que extraemos, usamos y luego desechamos.</p>   
-                <h2>Sistema a largo plazo</h2>
-                <p>Encontró que el sistema lineal en el que vivimos es defectuoso. Se preguntó cómo sería una economía exitosa que usa las cosas, en lugar de agotarlas. Un sistema a largo plazo está a nuestro alcance. Pero tendríamos que transformar nuestro modelo económico extractivo y desechable en uno basado en los principios de una economía circular.</p>
-            </article>
-        </aside>
+<!--   <img class="back" src= "./IMAGES/economia-circular.jpeg" alt="economia-circular">-->
+
+
+    <div class="conteiner">
+        <div class="card">
+            <div class="top-row background-top-row">
+                <h2>"Eco" Economia</h2>
+            </div>
+            <div class="content">
+                <p><strong>La idea de economía circular va volviéndose cada vez más conocida. Pero, ¿de qué se trata realmente?</strong>
+                </p>
+                
+            </div>
+        </div>
+    </div>    
+
+    <div class="conteiner">
+        <div class="card">
+            <div class="top-row background-top-row">
+                <h2>Economía lineal</h2>
+            </div>
+            <div class="content">
+                <p><strong>>Venimos de una economía lineal, consiste en extraer recursos, producir bienes y desechar los desperdicios. El ciclo de vida de los productos está programado para que sea corto, usar, tirar y volver a comprar nuevos productos.</strong</p>
+            </div>
+        </div>
+    </div> 
+
+    <div class="conteiner">
+        <div class="card">
+            <div class="top-row background-top-row">
+                <h2>Economia Circular</h2>
+            </div>
+            <div class="content">
+                <p><strong>La economía circular responde a una lógica distinta: toma a la naturaleza como ejemplo. La naturaleza no genera basura y todo lo generado se vuelve a usar y cumple una función.</strong</p>
+            </div>
+        </div>
+    </div> 
+
+    <div class="conteiner">
+        <div class="card">
+            <div class="top-row background-top-row">
+                <h2>las R</h2>
+            </div>
+            <div class="content">
+                <p>Desde la etapa de diseño de los productos se busca que tengan un ciclo de vida más largo, tratando de aprovechar su valor por más tiempo. Se prioriza el uso de materiales biodegradables. Los desperdicio inevitables se usa como materia. Ya no se trata de usar y tirar sino de <strong>reducir, reutilizar y reciclar</strong>. 
+                </p>
+            </div>
+        </div>
+    </div> 
+
+    <section class="grid-container">
+        
+        <span>video</span>
+        <span>slogan</span>
+        <span>grafico</span>
+        
     </section>
-    </div>
-    <main>
-        <h2 class="sub-titulo">Las "R" de la Economía Circular</h2>
-            <!-- Lista ordenada. El orden en que ponemos los elementos es relevante -->
-    
-    
-        <div class="erres">
-          
-            <ol class="uno">
-                <li> Rechazar; Consiste, básicamente, en renunciar a ciertos productos o partes de ellos que no sean ya necesarios, o bien redefinirlos de tal manera que ya no haya que producirlos. Un ejemplo sencillo es la factura electrónica, que hace innecesario utilizar papel para su consulta o archivo.</li>
-    
-                <li>Repensar: Potencia que las empresas transfieran servicios a los consumidores en lugar de la propiedad sobre un producto. Se trata de una actitud fundamental en la economía colaborativa o sharing economy.</li>
-    
-                <li>Reducir: Trata de disminuir en lo posible el consumo de recursos tanto en la fabricación como en el uso de un producto. Esto es algo que solo se logra a través de la eficiencia, que debe estar presente desde el momento del diseño y hasta su utilización.</li>
-    
-                <li>Reutilizar: Si un producto se encuentra en buenas condiciones y cumple su función original, debe seguir utilizándose.</li>
-    
-                <li>Reparar: Arreglar un producto defectuoso para seguir dándole su uso original es otra de las grandes claves de la economía circular.</li>
-    
-                <li>Restaurar: La diferencia entre esta estrategia y la anterior consiste en que la reparación se destina a productos que están dentro de su primer ciclo de vida. Por su parte, la restauración consiste en poner al día un producto que ya ha cruzado ese umbral.</li>
-    
-                <li>Refabricar: Se trata de recoger un producto, analizar su estado, desmontarlo, reacondicionar y reemplazar componentes, volver a ensamblarlo, comprobar su nivel de calidad y revenderlo con una etiqueta de cercano a nuevo.</li>
-    
-                <li>Redefinir: Esta es una de las estrategias que dan una nueva vida a los productos cuando están desgastados o cumplen una función que ya ha quedado obsoleta. Un ejemplo es utilizar ropa vieja o trapos de cocina como mascarillas ante la escasez de estos productos durante la pandemia.</li>
-    
-                <li>Reciclar: Básicamente, consiste en recuperar material de residuos que pueda procesarse de nuevo en la fabricación de nuevos productos, materiales o sustancias. Aunque esta es una de las erres más conocidas, no es tan sostenible ni rentable como las anteriores, tal y como subraya el informe, así que debe considerarse, en términos generales, como la última opción.</li>
-            </ol>
-       
+</main>
 
-        </div> 
-        <section><h2></h2>
-        </section>
-    </main>
 
-        <footer>
-            <ul>
-                <div class="logos">
-                  
-                    <li> <img src="./IMAGES/ingenias.png" width="100px" height="100px" alt="Logo ingenias"> </li>
-                    <li> <img src="./IMAGES/fundacionYPF.png" width="100px" height="50px" alt="Logo Fundacion YPF"> </li>
-                    <li> <img src="./IMAGES/mediachicas_.png" width="200px" height="50px" alt="Logo Media Chicas"> </li>
-                    <li> <img src="./IMAGES/htmLPLogo.png" alt="Logo HTMLP" width="150px" height="50px" </li>
-                 </div>
-            </ul>
-                 
-            <ul>
-                <div class="infor">
-                   <li>Calle 48, 635. La Plata</li>
-                   <li>221 4455 243</li>
-                   <li>htmLP@gmail.com</li> 
-                   <li>2024</li>
-                </div>
-    
-            </ul>
-         </footer>
+<footer>
+    <ul>
+        <div class="logos">
+            <li> <img src="./IMAGES/ingenias.png" width="100px" height="100px" alt="Logo ingenias"> </li>
+            <li> <img src="./IMAGES/fundacionYPF.png" width="100px" height="50px" alt="Logo Fundacion YPF"> </li>
+            <li> <img src="./IMAGES/mediachicas_.png" width="200px" height="50px" alt="Logo Media Chicas"> </li>
+            <li> <img src="./IMAGES/htmLPLogo.png" alt="Logo HTMLP" width="150px" height="50px"> </li>
+        </div>
+    </ul>
+    <ul>
+        <div class="infor">
+            <li>Calle 48, 635. La Plata</li>
+            <li>221 4455 243</li>
+            <li>htmLP@gmail.com</li> 
+            <li>2024</li>
+        </div>
+    </ul>
+</footer>
 </body>
 </html>
