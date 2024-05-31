@@ -155,13 +155,13 @@ a:active {
     
 }
 
-.grid-container > * {
+/* id-container > * {
     box-shadow: -1px 1px 7px 0px (rgba0, 0, 0, 0.75);
     border-radius: 4px;
     padding: 10px;
     text-align: center;
 
-}
+}*/
 
 .video{
     grid-area: video;
@@ -217,13 +217,13 @@ footer {
 }
 
 @media screen and (min-width:320px)and(max-width:768px) {
-    .grid-container{
+   /* .grid-container{
         display: grid;
         gap: 10px;
         grid-template: 
         "grafico" 200px
         "video" auto
-        "slogan 200px";
+        "slogan 200px"; */
         font-size: 25px; }
     ul {
         flex-wrap: wrap;
@@ -241,13 +241,13 @@ footer {
     }
 }
 @media screen and (min-width:999px) and (max-width:1200px) {
-    .grid-container {
+   /* .grid-container {
         grid-template-areas: 
         "video"     auto
         ".grafico"  250px
         "slogan   slogan"auto;
         text-align: left
-        /auto 200px 200px;
+        /auto 200px 200px; */
         font-size: 15px;
     
     }
