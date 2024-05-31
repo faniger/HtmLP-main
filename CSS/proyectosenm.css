@@ -13,7 +13,12 @@
     display: flex;
     align-items: center;
 }
-
+.card-img {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
 .logo {
     width: 150px;
     height: 150px;
@@ -34,23 +39,41 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around; 
-    padding: 0;
 }
 
 li {
-  margin: 5;
-  padding: 10px;
- 
-} 
+    margin: 5;
+    padding: 10px;
+}
 
 a:hover {
   color: #d9ed92;
   font-weight: bold;
 }
+
 a:active {
     color: #34A0A4;
 }
 
+.col-md-8 {
+    background-color: #99d98c;
+}
+.col-md-4 {
+    background-color: #99d98c; 
+}
+ 
+.card-text {
+    font-family: "Space Grotesk", sans-serif;
+    size: 20px;
+    background-color: #99d98c;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
 .wrap{
     width: 100vw;
     height: 100vh;
@@ -70,7 +93,6 @@ a:active {
     font-weight: bold;
 }
 
-
 .wrap-parrafo{
     font-family: "Freeman", sans-serif;
     font-weight: 200;
@@ -79,7 +101,7 @@ a:active {
 }
 
 
-#bold{
+.bold{
   font-weight: bold;
   font-size: large;
 
@@ -87,20 +109,6 @@ a:active {
 body {
     background-color: #D9ED92;
 }
-h1 {
-    font-family: "Freeman", sans-serif;
-    font-weight: 500px;
-    font-style: normal;
-    font-size: 40px;
-}
-a:hover {
-    color: #d9ed92;
-    font-weight: bold;
-  }
-  a:active {
-      color: #34A0A4;
-  }
-
 
 .grotesk {
     font-family: "Space Grotesk", sans-serif; 
@@ -109,25 +117,18 @@ a:hover {
     color: #fff;
 }
 
-nav {
-    background-color: #184E77;
+
+h1 {
+    font-family: "Freeman", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 40px;
 }
-
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around; 
-}
-
-li {
-    margin: 5;
-    padding: 10px;
-}
-
-
 h2 {
     font-family: "Freeman", sans-serif;
-    font-size: 20px;
+    font-size: 35px;
+    background-color: #99d98c;
+    color: solid black;
     display: flexbox;
     padding: 20px;
     margin: 20px;
@@ -142,6 +143,7 @@ h3 {
     text-align: center;
     padding-top: 50px;
 }
+
 .redes {
     margin: 0;
     top: 25px;
@@ -149,12 +151,6 @@ h3 {
     padding-top: 15px;
     display: flex;
     
-}
-
-.dire {
-    text-align: center;
-    font-family: "Freeman", sans-serif;
-    font-size: 15px;
 }
 
 footer {
@@ -183,13 +179,7 @@ footer {
     width: 1000px;
     line-height:3px;
 }
-.box {
-    width: 40px;
-    font-size: 2rem;
-    border: 4px solid #99d98c;
-    padding: 20px;
-    margin-left: 30%;
-} 
+
 @media (min-width:320px) and (max-width:480px) {
     .miestilo {
         text-align: left;
@@ -214,17 +204,3 @@ footer {
     
     }
 }
-/*overflow-wrap: break-word; / cazando mitos */
-
- /* pequeño chiste que encontramos investigando jaja*/
- /*
-https://coolors.co/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77
-paleta usada hasta ahora:
-52B69A
-184E77
-99D98C
-D9ED92
-#fff (este no esta en la paleta pero es el color de las letras en nav)
-también elegí un logo, puse ese porque me gustó pero no es definitivo obvio! pd: soy Regi
-
-*/

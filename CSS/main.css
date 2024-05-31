@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 aside {
     border-color: black;
     border-top: solid 5px green;
@@ -64,6 +62,9 @@ h1 {
   font-size: 40px;
   font-family: "Freeman", sans-serif;
   text-decoration: none;
+}
+h2 {
+    text-align: center;
 }
 
 .sub-titulo {
@@ -160,9 +161,6 @@ a:active {
 
 }
 
-h2 {
-    text-align: center;
-}
 
 .economia{
     text-align: justify;

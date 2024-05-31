@@ -5,28 +5,23 @@
     margin: 0;
     padding: 0;
 }
-#section-header {
+.section-header {
     display: flex;
     justify-content: center;
 }
 
-#titulo{
+.titulo{
     display: flex;
     align-items: center;
 }
 
-#logo {
+.logo {
     width: 150px;
     height: 150px;
     shape-margin: 2%;
     border-radius: 50%;
 }
-.grotesk {
-    font-family: "Space Grotesk", sans-serif; 
-    text-decoration: none;
-    background-color: #184E77;
-    color: #fff;
-}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -43,6 +38,7 @@ main {
     background-attachment: fixed;
     background-position: center; 
     size: 100%;
+    opacity: 0,7;
 }
 li {
   margin: 5;
@@ -65,8 +61,8 @@ li {
     display: grid;
     align-items: start;
     grid-template-columns: 3fr 3fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
+    grid-column-gap: 5px ;
+    grid-row-gap: 10px;
 
 
 }
@@ -75,15 +71,6 @@ li {
     border-color: solid #184e77;
    
  }
-
-
-a:hover {
-  color: #d9ed92;
-  font-weight: bold;
-}
-a:active {
-    color: #34A0A4;
-}
 
 .wrap{
     width: 100vw;
@@ -113,13 +100,14 @@ a:active {
 }
 
 
-#bold{
+.bold{
   font-weight: bold;
   font-size: large;
 
 }
 body {
     background-color: #D9ED92;
+
 }
 h1 {
     font-family: "Freeman", sans-serif;
@@ -169,35 +157,14 @@ a:hover {
     color: #fff;
 }
 
-/* nav {
-    background-color: #184E77;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around; 
-} */
-
-li {
-    margin: 5;
-    padding: 10px;
-}
-
-
 
 .redes {
     margin: 0;
     top: 25px;
     left: 25px;
     padding-top: 15px;
-    display: flex;   
-}
-
-.dire {
-    text-align: center;
-    font-family: "Freeman", sans-serif;
-    font-size: 15px;
+    display: flex;
+    
 }
 
 footer {
@@ -226,12 +193,8 @@ footer {
     width: 1000px;
     line-height:3px;
 }
- 
-/*overflow-wrap: break-word; / cazando mitos */
 
- /* pequeño chiste que encontramos investigando jaja*/
- 
- @media (max-width:768px) {
+@media (min-width:320px) and (max-width:480px) {
     .miestilo {
         text-align: left;
         font-size: 25px; }
@@ -239,7 +202,7 @@ footer {
         flex-wrap: wrap;
     }
 }
-@media (min-width:769px) and (max-width:998px) {
+@media (min-width:481px) and (max-width:1023px) {
     .miestilo {
         text-align: left;
         font-size: 20px;
@@ -247,7 +210,7 @@ footer {
 
     }
 }
-@media (min-width:999px) and (max-width:1200px) {
+@media (min-width:1024px) and (max-width:1200px) {
     .miestilo {
         text-align: left;
         font-size: 15px;
@@ -255,16 +218,5 @@ footer {
     
     }
 }
-/*
-https://coolors.co/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77
-paleta usada hasta ahora:
-52B69A
-184E77
-99D98C
-D9ED92
-#fff (este no esta en la paleta pero es el color de las letras en nav)
-también elegí un logo, puse ese porque me gustó pero no es definitivo obvio! pd: soy Regi
-
-*/
 
 
