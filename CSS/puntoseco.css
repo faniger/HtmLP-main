@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
+
+
+ * {
+    margin: 0;
+    padding: 0;
+  }
+ 
+/* Estilos base para móviles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #D9ED92;
+}
+
+header {
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+.section-header {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    margin-bottom: 1rem;
+    width: 140px;
+    height: 140px;
+    shape-margin: 2%;
+    border-radius: 50%;
+}
+
+.titulo {
+    margin: 0;
+    font-family: "Freeman", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #184e77;
+}
+
+nav ul li {
+    margin: 0.5rem 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+    background-image: url(../IMAGES/punto-verde-lp-reciclaje-1jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    size: 100%;
+    opacity: 0,7;
+}
+
+h2 {
+    font-family: "Freeman", sans-serif;
+    font-size: 30px;
+    display: flexbox;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    
+}
+h3 { 
+    font-family: "Freeman", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #99d98c;
+}
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    background-color: #99d98c;
+}
+a:hover {
+    color: #d9ed92;
+    font-weight: bold;
+  }
+  a:active {
+      color: #34A0A4;
+  }
+
+
+.grotesk {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #184E77;
+    color: #fff;
+}
+
+.grid {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid li {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.mapouter {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #34A0A4;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .logos,
+footer .infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logos li,
+footer .infor li {
+    margin: 0.5rem 0;
+}
+
+/* Media queries para tablets y dispositivos más grandes */
+@media (min-width: 768px) {
+    .section-header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .logo {
+        max-width: 150px;
+        margin-bottom: 0;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    main {
+        text-align: left;
+    }
+
+    .grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .grid li {
+        flex: 1 1 calc(50% - 2rem);
+        box-sizing: border-box;
+        margin: 1rem;
+    }
+
+    .mapouter iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    footer .logos,
+    footer .infor {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer .logos li,
+    footer .infor li {
+        margin: 0 1rem;
+    }
+}
+
+/* Media queries para desktops */
+@media (min-width: 1024px) {
+    .section-header {
+        justify-content:center ;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+    nav {
+        justify-content: space-around;
+    }
+
+    .grid li {
+        flex: 1 1 calc(33.333% - 2rem);
+    }
+
+    footer .logos li {
+        margin: 0 2rem;
+    }
+
+    footer .infor li {
+        margin: 0 1rem;
+    }
+}
+
+
+
+    
+
+
+
