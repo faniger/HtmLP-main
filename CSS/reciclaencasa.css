@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos base para móviles */
+body {
+    font-family: "Freeman", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #D9ED92;
+}
+
+header {
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+.section-header {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    margin-bottom: 1rem;
+    width: 140px;
+    height: 140px;
+    shape-margin: 2%;
+    border-radius: 50%;
+}
+
+.titulo {
+    margin: 0;
+    font-family: "Freeman", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #184e77;
+}
+
+nav ul li {
+    margin: 0.5rem 0;
+}
+ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.grotesk {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #184E77;
+    color: #fff;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+h3 {
+    font-size: 32px;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .logos,
+footer .infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logos li,
+footer .infor li {
+    margin: 0.5rem 0;
+}
+
+/* Media queries para tablets */
+@media (min-width: 768px) {
+    .section-header {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .logo {
+        max-width: 150px;
+        margin-bottom: 0;
+    }
+
+    .titulo {
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .img {
+        width: 70%;
+        height: auto;
+    }
+
+    footer .logos,
+    footer .infor {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer .logos li,
+    footer .infor li {
+        margin: 0 1rem;
+    }
+}
+
+/* Media queries para desktops */
+@media (min-width: 1024px) {
+   .section-header {
+        justify-content:center ;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+    nav {
+        justify-content: space-around;
+    }
+
+    .img {
+        width: 450px;
+        height: 450px;
+    }
+
+    footer .logos li,
+    footer .infor li {
+        margin: 0 2rem;
+    }
+}
+
+
+/* .section-header {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    shape-margin: 2%;
+    border-radius: 50%;
+}
+.grotesk {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #184E77;
+    color: #fff;
+}
+
+nav {
+    background-color: #184e77;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    padding: 0;
+}
+
+li {
+  margin: 5;
+  padding: 10px;
+ 
+} 
+
+a:hover {
+  color: #d9ed92;
+  font-weight: bold;
+}
+a:active {
+    color: #34A0A4;
+}
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+} 
+
+
+.wrap-texto{
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    font-family: "Freeman" sans-serif;
+    font-weight: bold;
+}
+
+
+.wrap-parrafo{
+    font-family: "Freeman", sans-serif;
+    font-weight: 200;
+    width: 50vw;
+    font-size: large;
+}
+
+
+.bold{
+  font-weight: bold;
+  font-size: large;
+
+}
+body {
+    background-color: #D9ED92;
+}
+h1 {
+    font-family: "Freeman", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 40px;
+}
+h3 { 
+    font-family: "Freeman", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.redes {
+    margin: 0;
+    top: 25px;
+    left: 25px;
+    padding-top: 15px;
+    display: flex;
+    
+}
+
+.dire{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    font-family: "Freeman", sans-serif; 
+    color:#fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: right;
+    background-color: #34A0A4;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;border: 0px solid green;
+    width: 1000px;
+}
+
+.infor {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 0px;border: 0px solid green;
+    width: 1000px;
+    line-height:3px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .miestilo {
+        text-align: left;
+        font-size: 25px; }
+    ul {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:481px) and (max-width:1023px) {
+    .miestilo {
+        text-align: left;
+        font-size: 20px;
+        
+
+    }
+}
+@media (min-width:1024px) and (max-width:1200px) {
+    .miestilo {
+        text-align: left;
+        font-size: 15px;
+            
+    
+    }
+} */
+ 
