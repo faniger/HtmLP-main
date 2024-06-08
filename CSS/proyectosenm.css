@@ -31,20 +31,33 @@
     background-color: #184E77;
     color: #fff;
 }
-nav {
+nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
     background-color: #184e77;
 }
 
+nav ul li {
+    margin: 0.5rem 0;
+}
 ul {
     list-style-type: none;
-    display: flex;
-    justify-content: space-around; 
 }
 
-li {
-    margin: 5;
-    padding: 10px;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
+.grotesk {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #184E77;
+    color: #fff;
+}
+
 
 a:hover {
   color: #d9ed92;
@@ -110,13 +123,6 @@ body {
     background-color: #D9ED92;
 }
 
-.grotesk {
-    font-family: "Space Grotesk", sans-serif; 
-    text-decoration: none;
-    background-color: #184E77;
-    color: #fff;
-}
-
 
 h1 {
     font-family: "Freeman", sans-serif;
@@ -144,63 +150,23 @@ h3 {
     padding-top: 50px;
 }
 
-.redes {
-    margin: 0;
-    top: 25px;
-    left: 25px;
-    padding-top: 15px;
-    display: flex;
-    
-}
-
 footer {
-    font-family: "Freeman", sans-serif; 
-    color:#fff;
-    font-size: 17px;
-    letter-spacing: 1px;
-    text-align: right;
-    background-color: #34A0A4;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
 }
-.logos {
+
+footer .logos,
+footer .infor {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin: 0px;border: 0px solid green;
-    width: 1000px;
 }
 
-.infor {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
-    margin: 0px;border: 0px solid green;
-    width: 1000px;
-    line-height:3px;
+footer .logos li,
+footer .infor li {
+    margin: 0.5rem 0;
 }
 
-@media (min-width:320px) and (max-width:480px) {
-    .miestilo {
-        text-align: left;
-        font-size: 25px; }
-    ul {
-        flex-wrap: wrap;
-    }
-}
-@media (min-width:481px) and (max-width:1023px) {
-    .miestilo {
-        text-align: left;
-        font-size: 20px;
-        
 
-    }
-}
-@media (min-width:1024px) and (max-width:1200px) {
-    .miestilo {
-        text-align: left;
-        font-size: 15px;
-            
-    
-    }
-}
