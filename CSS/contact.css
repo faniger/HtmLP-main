@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Estilos base para móviles */
+body {
+    font-family: "Freeman", sans-serif;
+    background-color: #B5E48C;
+}
+.logo {
+    margin-bottom: 1rem;
+    width: 140px;
+    height: 140px;
+    shape-margin: 2%;
+    border-radius: 50%;
+}
+.titulo {
+    margin: 0;
+    font-family: "Freeman", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header, main, footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #184e77;
+}
+
+nav ul li {
+    margin: 0.5rem 0;
+}
+ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.bold{
+    font-weight: bold;
+    font-size: large;
+  
+  }
+.grotesk {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #184E77;
+    color: #fff;
+}
+a:hover {
+    color: #d9ed92;
+    font-weight: bold;
+  }
+  a:active {
+      color: #34A0A4;
+  }
+
+form {
+    margin-top: 1rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 90%;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #184E77;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-size:larger;
+
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: small;
+}
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .logos,
+footer .infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    background-color: #34A0A4;
+}
+footer .logos li,
+footer .infor li {
+    margin: 0.5rem 0;
+}
+
+/* Media queries para tablets */
+@media (min-width: 768px) {
+    .section-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .redes {
+        justify-content: space-around;
+    }
+}
+
+/* Media queries para desktops */
+@media (min-width: 1024px) {
+    .section-header {
+        justify-content:center ;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+} 
+
+    nav ul li {
+        margin: 0 1rem;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    } 
+    form {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 25px;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-family: "Space Grotesk", sans-serif;
+        font-size:larger;
+        font-weight:bolder;
+    
+    }
+    h3 {
+        font-size: large;
+    }
+    .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer .logos, footer .infor {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    footer .infor {
+        justify-content: space-evenly;
+    }
+}
+ 
+
+ 
