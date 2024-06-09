@@ -1,0 +1,269 @@
+:root{
+    --color-primary: #D9ED92; 
+    --color-primary-dark: #99D98C;
+
+    --color-secundary: #38A3A5;
+    --color-secundary-dark: #004e64;
+
+    --color-gray-light: #a1cca5;
+    --color-gray: #52796f;
+    --color-gray-dark: #354f52;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vw;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: cover;
+    background-color:#d8f089 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,serif; 
+}
+
+img{
+    border-radius: 10px;
+}
+
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url(imagenes/economia-circular\ \(1\).jpeg);
+    background-size: cover;
+}
+
+header img{
+    height: 13vw;
+    margin-right: 9%;
+    margin-top: 0.96%;
+}
+
+header div{
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--color-secundary-dark);
+    background-size: cover;
+}
+
+header h1{
+    font-size: 40px;
+    margin: 10 10 20px;/*0 por arriba, 0 por debajo y 20 por los laterales*/
+}
+
+/*navegacion*/
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--color-secundary-dark);
+
+}
+
+.nav-bar a{
+    color: #D9ED92;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-bar a:hover{
+    background-color: #38A3A5;
+}
+#conteiner{
+    display: grid;
+    grid-template-rows: 300px 300px;
+    place-content: center;
+    display: flex;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin-top: 15%;
+}
+.sidebar{
+    margin: 10px 10px 10px 10px;
+    padding: 50px;
+}
+.photo{
+    margin: 50px 10px 10px 10px;
+    padding-left: 10%;
+    overflow: hidden;
+    width: 70%;
+    height: 70%;
+}
+.photo:hover img{
+    transform: scale(1.5);
+}
+.photo img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.paragraph{
+    margin: 5px 10px 5px 5px;
+    padding-left: 10px;
+    width: 60%;
+    font-size: larger;
+}
+
+blockquote{
+    width: 400px;
+    height: 200px;
+    margin-top: 8%;
+    padding-left: 10px;
+    margin-right: 40%;
+    background: url(camilla-abre.git) top left no-repeat;
+    color: #52796f;
+    text-align: center;
+}
+blockquote p{
+    padding-right: 30px;
+    background: url(camilla-cierra.git) top right no-repeat;
+}
+
+#conteiner{
+    height: 100%;
+    width: 90%;
+}
+footer{
+    background-color: #38A3A5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:12rem ;
+    width: 100rem;
+    height: 13rem;
+    margin-top: 11rem;
+}
+ul{
+    text-decoration: none;
+}
+footer ul li{
+    text-decoration: none;
+    display: inline;
+    gap: 10px;
+    margin-top: 20%;
+}
+
+.infor{
+    font-style: bold;
+    display: grid;
+    grid-column: auto;
+}
+/*
+#container{
+    display: grid;
+    grid-template-areas: "sidebar paragraph"
+                        "video    photo";
+}
+
+#paragraph{
+    background-color: #a1cca5;
+    grid-area: "paragraph";
+}
+#photo{
+    background-color: #D9ED92;
+    grid-area: "photo";
+}
+#sidebar{
+    background-color: red;
+    grid-area: "photo";
+}
+#video{
+    background-color: yellow;
+    grid-area: "video";
+}*/
+/*main*/
+/*
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row::after{
+    content:"" ;
+    clear: both;
+    display: contents;
+}
+.row img{
+    object-fit: contain;
+}
+
+p{
+    margin: 10px;
+}
+
+aside{
+    flex: 20%; /*se complementa con el porcentajedel main
+    height: 519px;
+    width:80px ;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+article{
+    flex: 10%;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+/*aside h2, h3{
+    color: #354f52;
+}
+
+main{
+    /*flex: 70%;
+    flex: 70%;
+    display: flex;
+    height: 400px;
+    background-color: orange;
+    padding: 1px;
+}
+
+main. h2{
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: #D9ED92;
+}
+main.img{
+    width: 100%;
+    height: 200p;
+    object-fit: cover;
+}
+
+.video-link{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.video-link h4{
+    opacity: 1;
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 10;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.video-link:hover h4{
+    opacity: 1;
+}*/
+
+@media screen and(max-width: 700px){
+    .nav-bar{
+        flex-direction: column;
+        text-size-adjust: auto;
+    }
+    #conteiner{
+        flex-direction: column ;
+        text-align: center;
+}
