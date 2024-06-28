@@ -159,29 +159,66 @@ footer .infor {
 footer .logos li,
 footer .infor li {
     margin: 0.5rem 0;
+}
+@media (min-width: 768px) {
+    .section-header {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
-    @media (min-width:320px) and (max-width:480px) {
-    .miestilo {
-        text-align: left;
-        font-size: 25px; }
-    ul {
-        flex-wrap: wrap;
+    .logo {
+        max-width: 150px;
+        margin-bottom: 0;
+    }
+
+    .titulo {
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin: 5px;
+        padding: 10px;
+    }
+
+
+    footer .logos,
+    footer .infor {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer .logos li,
+    footer .infor li {
+        margin: 0 1rem;
     }
 }
-@media (min-width:481px) and (max-width:1023px) {
-    .miestilo {
-        text-align: left;
-        font-size: 20px;
-        
 
+/* Media queries para desktops */
+@media (min-width: 1024px) {
+    .section-header {
+        justify-content:center ;
     }
-}
-@media (min-width:1024px) and (max-width:1200px) {
-    .miestilo {
-        text-align: left;
-        font-size: 15px;
-            
-    
+
+    .titulo {
+        font-size: 40px;
+    }
+    nav {
+        justify-content: space-around;
+    }
+
+    footer .logos li {
+        margin: 0 2rem;
+    }
+
+    footer .infor li {
+        margin: 0 1rem;
     }
 }
 
