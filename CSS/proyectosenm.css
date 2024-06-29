@@ -35,8 +35,10 @@ nav ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-around; 
-
-
+}
+nav ul li {
+    margin: 0.5rem 0;
+}
 li {
     margin: 5;
     padding: 10px;
